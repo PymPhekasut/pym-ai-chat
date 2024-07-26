@@ -44,3 +44,30 @@ $ npm run start
    ![genImg](client/public/genImg.png)
 
 5. All chat history will be stored in the MongoDB Atlas that users are able to look their chat history at anytime.
+
+#### Appendix:
+
+Do not forgot to register and fill your own env.
+
+#### 🚀 Client side:
+
+```
+VITE_CLERK_PUBLISHABLE_KEY=Your_own_key
+VITE_IMAGE_KIT_ENDPOINT=Your_own_key
+VITE_IMAGE_KIT_PUBLIC_KEY=Your_own_key
+VITE_GEMINI_PUBLIC_KEY=Your_own_key
+VITE_API_URL=http://localhost:3000
+```
+
+#### ⚙️ Backend side:
+
+```
+IMAGE_KIT_ENDPOINT=Your_own_key
+IMAGE_KIT_PUBLICKEY=Your_own_key
+IMAGE_KIT_PRIVATE_KEY=Your_own_key
+
+CLIENT_URL=http://localhost:5173
+MONGO=Your_own_key
+CLERK_PUBLISHABLE_KEY=Your_own_key
+CLERK_SECRET_KEY=Your_own_key
+```
